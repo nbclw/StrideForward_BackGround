@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aspcoremvc", "aspcoremvc\aspcoremvc.csproj", "{FC492F94-2BAF-4345-815A-9663A1B07D11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC492F94-2BAF-4345-815A-9663A1B07D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC492F94-2BAF-4345-815A-9663A1B07D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC492F94-2BAF-4345-815A-9663A1B07D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC492F94-2BAF-4345-815A-9663A1B07D11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEF8ADB5-A9D5-403F-93D7-F22438EA6F46}
+	EndGlobalSection
+EndGlobal
