@@ -7,11 +7,11 @@
 <script type="text/javascript">
     function clickTest() {
         $.ajax({
-            type: "POST",
-            url: "Home/HelloBoy",
-            data: {
-                name: 'ggg'
-            },
+            type: "GET",
+            url: "Home/TestDatabase",
+            //data: {
+            //    name: 'ggg'
+            //},
             success: function (res) {
                 console.log(res)
                 alert(res)

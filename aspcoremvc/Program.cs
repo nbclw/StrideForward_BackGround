@@ -15,13 +15,14 @@ namespace aspcoremvc
         public static void Main(string[] args)
         {
             //CreateWebHostBuilder(args).Build().Run();
-            //var config = new ConfigurationBuilder()
-            //  .SetBasePath(Directory.GetCurrentDirectory())
-            //  .AddJsonFile("appsettings.json", optional: true)
-            //  .Build();
+            var config = new ConfigurationBuilder()
+              .SetBasePath(Directory.GetCurrentDirectory())
+              .AddJsonFile("appsettings.json", optional: true)
+              .Build();
+
             var host = new WebHostBuilder()
                 .UseKestrel()
-                //.UseConfiguration(config)
+                .UseConfiguration(config)
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 //.UseIISIntegration()//证书，用于https，一般注释掉
                 .UseStartup<Startup>()
